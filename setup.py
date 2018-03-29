@@ -12,7 +12,7 @@ with open(os.path.join(CURRENT_PATH, 'requirements.txt')) as f:
 
 
 setup(
-    name='django-cachalot-2',
+    name='django-cachalot',
     version=__version__,
     author='Bertrand Bordage',
     author_email='bordage.bertrand@gmail.com',
