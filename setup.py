@@ -12,7 +12,7 @@ with open(os.path.join(CURRENT_PATH, 'requirements.txt')) as f:
 
 
 setup(
-    name='django-cachalot',
+    name='django-cachalot-2',
     version=__version__,
     author='Bertrand Bordage',
     author_email='bordage.bertrand@gmail.com',
@@ -26,9 +26,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
-        'Framework :: Django :: 1.8',
-        'Framework :: Django :: 1.10',
-        'Framework :: Django :: 1.11',
+        'Framework :: Django :: 2.0',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
